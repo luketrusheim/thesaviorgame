@@ -1,0 +1,25 @@
+const OFF = 0;
+const ON = 1;
+const LOADING = 2;
+
+
+
+SCENE_START_STATE = ON;
+SCENE_ONE_STATE = ON;
+SCENE_TWO_STATE = OFF;
+SCENE_THREE_STATE = OFF;
+SCENE_FOUR_STATE = OFF;
+SCENE_STORE_STATE = OFF;
+SCENE_SECRET_CAVE_STATE = OFF
+SCENE_LOCATION = 1;
+
+
+function initializeScenes(){
+  SCENE_ONE();
+  SCENE_TWO();
+  SCENE_THREE();
+  SCENE_FOUR();
+  SCENE_STORE();
+ // SCENE_SECRET_CAVE()
+ // sceneTracker();
+}
